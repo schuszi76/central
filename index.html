@@ -13,27 +13,47 @@
 			    switch (mm) {
 			        case "12":
 					  switch(dd) {
-					    case "02","12","22","32","42","52":
+					    case "02":
+						case "12":
+						case "22":
+						case "32":
+						case "42":
+						case "52":
 			            window.location.href = "http://www.google.com/search?q=krumpli";
 				        break;
-					    case "03","13","23","33","43","53":
+					    case "03":
+						case "13":
+						case "23":
+						case "33":
+						case "43":
+						case "53":
 			            window.location.href = "http://www.google.com/search?q=alma";
 				        break;
-					    case "04","14","24","34","44","54":
+					    case "04":
+						case "14":
+						case "24":
+						case "34":
+						case "44":
+						case "54":
 			            window.location.href = "http://www.google.com/search?q=narancs";
 				        break;
-					    case "05","15","25","35","45","55":
+					    case "05":
+						case "15":
+						case "25":
+						case "35":
+						case "45":
+						case "55":
 			            window.location.href = "http://www.google.com/search?q=repa";
 				        break;
    				      default:
 					    document.write("Ize_1 <P>")
-					    document.write(mm + ". " + dd + ".") 
+					    document.write(mm + ". __" + dd + ".") 
                         break;
    	             	  }
 					break;  
 				  default:
 					  document.write("Ize_2 <P>")
-					  document.write(mm + ". " + dd + ".") 
+					  document.write(mm + ". / " + dd + ".") 
                       break;
    	           	}
             }
